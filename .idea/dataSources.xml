@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="univer@localhost" uuid="a5e471f3-23d5-4a19-a08c-9ac3753ec9e0">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jdbc" uuid="5e390e9b-dcb8-4c4e-82cb-dca7c0dda529">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>jdbc.properties
+
+X:/Programming/IdeaProjects/dbJPA/src/main/resources/jdbc.properties</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://Localhost:3306/univer?useSSL=false</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="webAlwaysNewDataSource" uuid="66545916-d615-436b-9416-47443617445c">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>jakarta commons-dbcp
+
+X:/Programming/IdeaProjects/dbJPA/src/main/resources/applicationContext.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://Localhost:3306/univer?useSSL=false</jdbc-url>
+    </data-source>
+  </component>
+</project>
